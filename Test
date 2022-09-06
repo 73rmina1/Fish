@@ -1,5 +1,4 @@
 #ChessBoard.py
-#James Sams
 
 #issues: add color to the board to distinuguish between white and black
 # I want to get the functionality of moving an arbitrary piece to any other space
