@@ -1,0 +1,66 @@
+import java.util.Scanner;
+import javax.swing.JOptionPane;
+
+public class Main {
+
+	public static void main(String[] args) {
+		/*
+		// 1. Java Tutorial for Beginners
+		System.out.print("I love pizza\n"); //\n and println accomplish the same thing
+		System.out.println("It's really good!"); // \t adds a tab.
+		System.out.println("");
+		
+		//2. Variables
+		int x; //declaration
+		x = 123; //assignment
+		int y = 123; //initialization
+		System.out.println("My number is: " + x);
+		long l = 123456L;
+		float f = 1.23f;
+		boolean b = true;
+		String s = "Hello World";
+		System.out.println("");
+		
+		//3. Swap Two Variables
+		String a = "water";
+		String c = "Kool-Aid";
+		String temp;
+		temp = a;
+		a = c;
+		c = temp;
+		System.out.println("a: " + a);
+		System.out.println("c: " + c);
+		System.out.println("");
+		
+		//4. User Input
+		Scanner scanner = new Scanner(System.in);
+		System.out.println("What is your name? ");
+		String name = scanner.nextLine();
+		System.out.println("How old are you? ");
+		int age = scanner.nextInt();
+		scanner.nextLine(); //This clears the scanner of any rouge new lines.
+		
+		System.out.println("Hello, " + name);
+		System.out.println("You are " + age);
+		System.out.println("");
+		
+		//5. Expressions
+		int friends = 10;
+		friends = friends + 1;
+		friends++;
+		
+		System.out.println("You have " + friends + " friends.");
+		System.out.println("");
+		*/
+       	//6. GUI Intro
+		//For some reason, this section doesn't work unless sections 1-5 are commented out.
+		String name2 = JOptionPane.showInputDialog("Enter your name");
+		JOptionPane.showMessageDialog(null, "Hello, " + name2);
+		
+		int age2 = Integer.parseInt(JOptionPane.showInputDialog("Enter your age"));
+		JOptionPane.showMessageDialog(null, "Your age is " + age2);
+		
+		double height = Double.parseDouble(JOptionPane.showInputDialog("Enter your height in cm"));
+		JOptionPane.showMessageDialog(null, "You are " + height + " cm tall");
+	}
+}
